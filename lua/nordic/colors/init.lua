@@ -6,7 +6,7 @@ function C.extend_palette()
     -- Modify the palette before generating colors.
     C = O.on_palette(C)
 
-    local diff_blend = 0.2
+    local diff_blend = 0.9
 
     -- Add these for international convenience :)
     C.grey0 = C.gray0
@@ -57,10 +57,10 @@ function C.extend_palette()
 
     -- Diffs
     C.diff = {}
-    C.diff.change0 = U.blend(C.blue1, C.bg, 0.05)
-    C.diff.change1 = U.blend(C.blue2, C.bg, diff_blend)
-    C.diff.add = U.blend(C.green.base, C.bg, diff_blend)
-    C.diff.delete = U.blend(C.red.base, C.bg, diff_blend)
+    C.diff.change0 = U.blend(C.blue1, C.gray5, 0.9)
+    C.diff.change1 = U.blend(C.blue2, C.gray5, diff_blend)
+    C.diff.add = U.blend(C.green.base, C.gray5, diff_blend)
+    C.diff.delete = U.blend(C.red.bright, C.gray5, diff_blend)
 
     -- Git
     C.git = {}

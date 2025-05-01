@@ -20,4 +20,7 @@ return {
     DashboardDesc = { fg = C.green.base },
     DashboardKey = { fg = C.red.base, bold = true },
     DashboardIcon = { fg = C.green.base },
+
+    IndentLine = { fg = C.gray3 },
+    IndentLineCurrent = { fg = C.blue1 },
 }

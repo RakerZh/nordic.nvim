@@ -26,6 +26,7 @@ M.integrations = {
     'lsp_signature',
     'ministatusline',
     'epo',
+    'render-markdown',
 }
 
 M.native = {

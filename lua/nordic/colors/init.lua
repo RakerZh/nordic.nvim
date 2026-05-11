@@ -59,7 +59,7 @@ function C.extend_palette()
     C.diff = {}
     C.diff.change0 = U.blend(C.blue1, C.gray5, 0.9)
     C.diff.change1 = U.blend(C.blue2, C.gray5, diff_blend)
-    C.diff.add = U.blend(C.green.base, C.gray5, diff_blend)
+    C.diff.add = U.blend(C.green.dim, C.gray5, diff_blend)
     C.diff.delete = U.blend(C.red.bright, C.gray5, diff_blend)
 
     -- Git

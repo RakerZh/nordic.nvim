@@ -27,6 +27,7 @@ M.integrations = {
     'ministatusline',
     'epo',
     'render-markdown',
+    'whiskyline',
 }
 
 M.native = {
